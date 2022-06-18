@@ -1,0 +1,16 @@
+/*Parllax classes*/
+  
+  /*Global parallax rules*/
+  .parallax{
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  /*Parallax rules (image and height)*/
+  .parallax{
+    opacity:60%;
+    background-image: url("background image here");
+    min-height:100%; /*controlls how much of the image is visable*/
+  }

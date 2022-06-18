@@ -1,0 +1,17 @@
+  /*https://codepen.io/sreisner/pen/yOOOjx*/
+  .sideBar::before {
+    transition: 300ms;
+    height: 2px;
+    content: "";
+    position: absolute;
+    background-color: grey;
+  }
+  
+  .sideBar::before {
+    width: 0%;
+    top: 18px;
+  }
+  
+  .sideBar:hover::before {
+    width: 60%;
+  }
