@@ -1,4 +1,10 @@
   /*https://codepen.io/sreisner/pen/yOOOjx*/
+  
+  a{
+    text-decoration: none;
+    color: grey;
+  }
+  
   .sideBar::before {
     transition: 300ms;
     height: 2px;
@@ -8,10 +14,10 @@
   }
   
   .sideBar::before {
-    width: 0%;
-    top: 18px;
+    width: 0px;
+    top: 25px;
   }
   
   .sideBar:hover::before {
-    width: 60%;
+    width: 50px;
   }
