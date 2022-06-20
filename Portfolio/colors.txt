@@ -1,0 +1,14 @@
+white color:
+#F9F8F7
+
+greys:
+light:
+#9D949C
+dark:
+#8C838D
+
+Light highlight:
+#997A9F
+
+Dark highlight:
+#2A232C

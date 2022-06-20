@@ -1,0 +1,118 @@
+html body{
+    margin:0 auto;
+    height: 100%;
+    width: 100%;
+}
+
+header{
+    background-color: #F9F8F7;
+    color:#997A9F;
+    height: 10vh;
+}
+
+header div{
+    width: 20%;
+    height: 100%;
+}
+
+#nameAnimation {
+    position: relative;
+    bottom: 35px;
+    vertical-align: top;
+    font-size: 30px;
+    float: right;
+    overflow: hidden;
+}
+
+#mySidenav {
+    width: 0px;
+}
+
+#menue {
+    transition: 300ms;
+    padding: 5px;
+}
+
+#menue:hover{
+    color:#2A232C;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #F9F8F7;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+  
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #997A9F;
+    display: block;
+    transition: 0.3s;
+    position: relative;
+ }
+
+.sidenav a:hover {
+    color: #2A232C;
+}
+  
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.sideBar::before {
+    transition: 300ms;
+    height: 2px;
+    content: "";
+    position: absolute;
+    background-color: #8C838D;
+  }
+  
+.sideBar::before {
+    width: 0px;
+    bottom: 10px;
+}
+  
+.sideBar:hover::before {
+    width: 50px;
+}
+
+#freeContent{
+    width: 100%;
+}
+#paidContent{
+    width: 100%;
+}
+#textContent p{
+    float: none;
+    width: fit-content;
+    text-align: justify;
+}
+
+#imageContent{
+    width: fit-content;
+    height: auto;
+}
+
+#rightContent{
+    height: 50%;
+    width: 50%;
+    float: right;
+}
+
+#leftContent{
+    width: 50%;
+    float: left;
+}
