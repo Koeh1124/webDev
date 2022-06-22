@@ -10,6 +10,12 @@ header{
     height: 10vh;
 }
 
+.sticky{
+    position:fixed;
+    top: 0;
+    width: 100%;
+}
+
 header div{
     width: 20%;
     height: 100%;
@@ -37,10 +43,15 @@ header div{
     color:#2A232C;
 }
 
+.sidebarCont{
+    width:fit-content;
+    margin: 10%;
+    padding: 2%;
+}
+
 .sidenav {
     height: 100%;
     width: 0;
-    position: absolute;
     z-index: 1;
     top: 0;
     left: 0;
@@ -51,7 +62,6 @@ header div{
 }
   
 .sidenav a {
-    padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
     color: #997A9F;
@@ -81,12 +91,12 @@ header div{
   }
   
 .sideBar::before {
-    width: 0px;
-    bottom: 10px;
+    width: 0%;
+    bottom: 0px;
 }
   
 .sideBar:hover::before {
-    width: 50px;
+    width: 60%;
 }
 
 #freeContent{

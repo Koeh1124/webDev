@@ -4,5 +4,5 @@ function openNav() {
 }
 // "closes" the bar by setting the width to o
 function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("mySidenav").style.width = "0px";
 }
