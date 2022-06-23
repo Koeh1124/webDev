@@ -1,0 +1,116 @@
+The adventure of debugging
+
+1:
+You have ran into a bug and you have no idea what is wrong what do you do?
+
+Cry:
+
+    Ok you got your frustrations out what do you want to do now?
+
+    Cry Some more:
+
+        Loops
+
+    Give up:
+
+        game is over
+
+    Actually work on fixing the bug:
+
+        continue to "How do you want to handle it section?"
+
+Give up:
+
+    Game is over
+
+Try to fix it:
+
+    How do you want to try to fix this bug?
+
+    Google it:
+
+        Where do you shearch for the answer?
+
+        Stackoverflow:
+
+            The solution you found looks like nothing you've seen before, what do you do??
+
+            Try to take the code apart and understand what's going on:
+
+            Look at another solution:
+
+                Go back to "Google it"
+
+            Ctrl+C Ctrl+V:
+
+                The code works perfectly, but
+                FBI/swat team breaks in and arrests you for stealing code.
+                They take you before the great judge of code, how do you plead?
+
+                Not guilty:
+
+                    You are sentenced to life in prison for not confessing you stole the code and not correctly crediting the authours
+
+                guilty:
+
+                    You are forced to take a class on coding ediquet and correctly credit the authours
+
+        W3schools:
+
+            Look at that you found a great implentation of what you wanted to do?
+
+                Implement the code and correctly credit the authours:
+
+                    You fixed the bug, well you think at least
+                    It's a diffrent bug now, but that's progress atleast
+
+                Continue looking for a more complex solution so you can pass it off as your own and look smart:
+
+                    Go back to "Google it"
+
+        GeeksForGeeks:
+
+            You don't find a solution and all the fourms you find on GeeksForGeeks are not answered, what do you do?
+
+                Cry because you din't find a solution:
+
+                    go to "cry" section
+
+                Continue to search on google:
+
+                    go to "google it" section 
+
+        Hire someone from Craigslist:
+
+            You hire a person from Craigslist to work for you named Ron
+            he gets the work done quickly and effectivly
+            you guys really hit it off and continue working together
+
+            10 Years later:
+
+                You now own one of the biggest code consulting company and ron is your second hand man
+
+                10 years later:
+
+                    The robot revolution has started all because YOU wanted to fix that bug for that one paeice of code
+                    Your buissness has spawned the rise of general ai and the slow death of the human race
+
+                    10 years later:
+
+                        You and ron have been surving together, but today he got caught by one of the patrols
+                        You watched as the life was drained from his eyes, you have lost your will to survive
+
+                        10 years later:
+
+                            The robots have kept youi alive to help their progresson as you were the founder of the company that created them
+                            They want to l;earn more about their inception and have created a full-dive simulation to see how they came to because
+
+                            return to start 
+
+    Cry:
+
+        got to cry section
+
+    Ask a friend:
+
+        They already came acroos that proble, they got you

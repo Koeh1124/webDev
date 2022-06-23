@@ -1,0 +1,25 @@
+
+.inv{
+    border: 2px solid black;
+    display: flex;
+}
+
+.invWeapon{
+    border: 2px solid black;
+}
+
+.invRow{
+    display: flex;
+    justify-content: space-around;
+    border-top: 2px dashed black;
+    border-bottom: 2px dashed black;
+}
+
+.invRow img{
+    border-left: 2px dotted black;
+    border-right: 2px dotted black;
+}
+
+.invWeapon{
+    
+}
