@@ -1,0 +1,25 @@
+html body{
+    margin: 0;
+}
+#screen{
+    margin:0;
+    height:80vh;
+    background-image: url("assets/code.png");
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+#selector{
+    display: flex;
+    justify-content: space-around;
+}
+
+span{
+    top: 20%;
+    overflow:hidden;
+    width: 70%;
+    color: white;
+    margin: 30%;
+    text-align: center;
+}

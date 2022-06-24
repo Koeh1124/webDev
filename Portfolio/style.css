@@ -8,6 +8,17 @@ header{
     background-color: #F9F8F7;
     color:#997A9F;
     height: 10vh;
+    display:flex;
+}
+
+.name{
+    position: relitive;
+    height: 100%;
+    width: auto;
+    margin-right:10%;
+    margin-left:auto;
+    size: 10vw;
+    padding-bottom:15px;
 }
 
 .sticky{

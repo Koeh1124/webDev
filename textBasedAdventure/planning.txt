@@ -103,7 +103,7 @@ Try to fix it:
                         10 years later:
 
                             The robots have kept youi alive to help their progresson as you were the founder of the company that created them
-                            They want to l;earn more about their inception and have created a full-dive simulation to see how they came to because
+                            They want to learn more about their inception and have created a full-dive simulation to see how they came to because
 
                             return to start 
 
@@ -113,4 +113,4 @@ Try to fix it:
 
     Ask a friend:
 
-        They already came acroos that proble, they got you
+        They already came acroos that problem, they got you
