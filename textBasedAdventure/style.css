@@ -5,11 +5,14 @@ html body{
     margin:0;
     height:80vh;
     background-image: url("assets/code.png");
+    background-repeat:no-repeat;
+    background-size: cover;
 }
 img{
     height: 100%;
     width: 100%;
 }
+
 #selector{
     display: flex;
     justify-content: space-around;
@@ -22,4 +25,8 @@ span{
     color: white;
     margin: 30%;
     text-align: center;
+}
+
+span p {
+    background-color: black;
 }
