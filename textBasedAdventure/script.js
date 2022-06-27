@@ -1,4 +1,3 @@
-//cry loop
 const win = {
     text:"",
     options:[],
@@ -8,7 +7,7 @@ const win = {
 const gameOver = {
     text:"",
     options:[],
-    img:"gameOver.png"
+    img:"gameOver.jpg"
 }
 
 const prison = {
@@ -16,7 +15,6 @@ const prison = {
     options:[],
     img:"prison.jpg"
 }
-
 
 const course = {
     text:" You are forced to take a class on coding ediquet and correctly credit the authours",
@@ -39,7 +37,7 @@ const swat = {
 const stackOverflow = {
     text:"The solution you found looks like nothing you've seen before, what do you do?",
     options:[["Ctrl+C Ctrl+V",swat]],
-    img:"stackOverflow.jpg"
+    img:"stackOverflow.png"
 }
 
 const w3 = {
@@ -51,7 +49,7 @@ const w3 = {
 const geeks = {
     text:"You don't find a solution and all the fourms you find on GeeksForGeeks are not answered, what do you do?",
     options:[],
-    img:"gfg.jpg"
+    img:"gfg.PNG"
 }
 
 const simulation = {
@@ -81,7 +79,7 @@ const company = {
 const craigs = {
     text:"You hire a person from Craigslist to work for you named Ron\nhe gets the work done quickly and effectivly\nyou guys really hit it off and continue working together",
     options:[["Continue",company]],
-    img:"craigs.jpg"
+    img:"craigs.PNG"
 }
 
 const google = {
