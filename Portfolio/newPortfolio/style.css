@@ -1,3 +1,89 @@
+:root{
+    --mainColor: #5C6D70;
+    --concoleColor: #484A47;
+    --textColor: #E0AC9D;
+    --importanColor: #E88873;
+    --highlightColor: #A37774;
+}
 html body{
+    align-items: center;
     margin:0%;
+    background-color: var(--mainColor);
+    overflow-y: hidden;
+}
+
+header{
+    padding-left: 10vw;
+    padding-right: 10vw;
+    display: flex;
+    color: var(--importanColor);
+}
+
+header aside{
+    float: right;
+}
+/*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_hide_scrollbar_keep_func*/
+
+main{
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    float: inline-start;
+    background-color: var(--concoleColor);
+    border-radius: 15px 15px 0px 0px;
+    width: 80vw;
+    height: 75vh;
+    overflow-y: scroll;
+    margin-right: 10vw;
+    margin-left: 10vw;
+    margin-bottom: 0px;
+    padding: 15px;
+    padding-bottom: 0px;
+    border: 2px solid black;
+}
+
+main::-webkit-scrollbar{
+    display: none;
+}
+
+section{
+    border-radius: 0px 0px 15px 15px;
+    height: 5vh;
+    width: 80vw;
+    background-color: var(--concoleColor);
+    margin: 10vw;
+    margin-top: 0px;
+    display: flex;
+    padding: 15px;
+    padding-top: 0px;
+    border: 2px solid black;
+    border-top: none;
+    align-items: center;
+}
+
+section p{
+    color: var(--textColor);
+    margin:0px;
+    font-size: 3vh;
+    text-align: center;
+}
+
+#important{
+    color:var(--importanColor);
+}
+
+input{
+    background-color: var(--concoleColor);
+    color: var(--textColor);
+    font-size: 3vh;
+    width: 100%;
+    border: none;
+}
+
+/*https://www.w3docs.com/snippets/css/how-to-remove-and-style-the-border-outline-around-text-input-boxes-in-google-chrome.html*/
+input:focus{
+    outline: none;
+}
+
+footer{
+    
 }

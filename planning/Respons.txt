@@ -1,0 +1,4 @@
+Keenan-Backend, buissnessEnd & Financial plan
+John-Frontend, marketing
+Will-Backend
+Brandon-Frontend
