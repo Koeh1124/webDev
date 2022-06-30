@@ -5,10 +5,10 @@ window.onload = function() {
   var canvas = document.getElementById("myCanvas");
   var ctx = canvas.getContext("2d");
   var img = new Image()
-  img.src = 'lying.jpg'
-  canvas.width = img.width*.8
-  canvas.height = img.height*.8
-  ctx.scale(.8,.8)
+  img.src = 'birb.jpg'
+  canvas.width = img.width
+  canvas.height = img.height
+  ctx.scale(1,1)
   ctx.drawImage(img, 0, 0);
   document.getElementById("test").innerText=`Height:${img.height} width:${img.width}`
   var data = ctx.getImageData(0,0,canvas.width,canvas.height);

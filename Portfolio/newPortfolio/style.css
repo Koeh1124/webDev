@@ -67,13 +67,16 @@ section{
     align-items: center;
 }
 
-section p{
+p{
     color: var(--textColor);
     margin:0px;
     font-size: 2em;
     text-align: center;
 }
 
+main p {
+    text-align: left;
+}
 aside{
     width: 15%;
     display: flex;
@@ -96,6 +99,11 @@ aside a:hover{
     color:var(--importanColor);
 }
 
+#ascii{
+    font-size: 1.5px;
+    font-family:
+    monospace, monospace;
+}
 input{
     background-color: var(--concoleColor);
     color: var(--textColor);
