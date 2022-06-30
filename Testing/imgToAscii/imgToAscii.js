@@ -5,7 +5,7 @@ window.onload = function() {
   var canvas = document.getElementById("myCanvas");
   var ctx = canvas.getContext("2d");
   var img = new Image()
-  img.src = 'drippin.png'
+  img.src = 'lying.jpg'
   canvas.width = img.width*.8
   canvas.height = img.height*.8
   ctx.scale(.8,.8)
