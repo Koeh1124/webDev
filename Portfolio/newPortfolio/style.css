@@ -69,6 +69,7 @@ section{
 
 p{
     color: var(--textColor);
+    font-family: 'Inconsolata', monospace;
     margin:0px;
     font-size: 2em;
     text-align: center;
@@ -100,7 +101,7 @@ aside a:hover{
 }
 
 #ascii{
-    font-size: 1.5px;
+    font-size: 1px;
     font-family:
     monospace, monospace;
 }

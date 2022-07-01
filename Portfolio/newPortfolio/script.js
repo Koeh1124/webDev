@@ -7,7 +7,6 @@ function clearPage() {
 function asciiCreator(data, w, h) {
     asciiLightChart = "$@B&WM#*bdwOCJcjf\|)1}]?-_+~>i!I;,^`'.";
     rgbaVals=data.data;
-    var greyScale = [];
     var html = "<p id='ascii'>"
     for (var r=0;r<h;r++){
       for (var c=0;c<w*4;c+=4){
@@ -24,7 +23,15 @@ function imageAsciiPrep(url){
     var ctx = canvas.getContext("2d");
     var img = new Image()
     img.src = `assets/${url}`
-    width = display.offsetWidth;
+    var width = display.offsetWidth;
+    var scale = Math.round(((width/img.width))/1.5);
+    if (!scale){
+        scale = .4;
+    }
+    console.log(scale)
+    canvas.width = (img.width*scale)
+    canvas.height = (img.height*scale)
+    ctx.scale(scale,scale)
     ctx.drawImage(img, 0, 0);
     var data = ctx.getImageData(0,0,canvas.width,canvas.height);
     return(asciiCreator(data,canvas.width,canvas.height));
@@ -45,7 +52,13 @@ input.addEventListener("keypress", function(key) {
     if(key.key === "Enter") {
         data = input.value;
         if (correctInputs[data]){
-            correctInputs[data]('birb.jpg')
+            console.log("working")
+            if (data === 'birb'){
+                printImage('birb.jpg')
+            }
+            else if (data === 'drip'){
+                printImage('drippin.png')
+            }
         }
         input.value = "";
     }
