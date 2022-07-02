@@ -100,7 +100,7 @@ aside a:hover{
     color:var(--importanColor);
 }
 
-#ascii{
+.ascii{
     font-size: 1px;
     font-family:
     monospace, monospace;
@@ -116,4 +116,11 @@ input{
 /*https://www.w3docs.com/snippets/css/how-to-remove-and-style-the-border-outline-around-text-input-boxes-in-google-chrome.html*/
 input:focus{
     outline: none;
+}
+
+.handsomeBoy{
+    width:50%;
+    float:left;
+    height:auto;
+    box-sizing: border-box;
 }
