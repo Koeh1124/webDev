@@ -9,9 +9,9 @@ const aboutPage = `
         <p style:'box-sizing: border-box;'>My name is Keenan.
         I like to solve interesting problems through programming.</p>
         <p style:'box-sizing: border-box;'>I know python, html, css, javascript, and have dabbled in java, lua, and c++</p>
-        <p style:'box-sizing: border-box;'>I have learned all of this through the Southern Indiana Carrer and Technical Center, the Nextech Catapult summer program, and in my free time</p>
-        <p></p>
-        <p></p>
+        <p style:'box-sizing: border-box;'>I have learned all of this through the Southern Indiana Carrer and Technical Center, the Nextech Catapult summer program, and google in my free time</p>
+        <br>
+        <p style:'box-sizing: border-box;'>In my free time when I'm not learning more stuff about computers I'm usally in them gym, watching movies, or playing with legos.</p>
     </div>
 </div>
 `;
@@ -24,22 +24,19 @@ const contactFourm = `
     <form action="https://formsubmit.co/3f346b85db501e09ef26a883e8f7d2f1" target="#" method="POST">
     <!-- Form body here -->
         <div style="display: flex; justify-content:space-between; width:50%;">
-            <p style="width: 15%; float:right;display:inline">Name:</p><input type="text" name="name" required>
+            <p style="width: 15%; float:right;display:inline">Name:</p><input type="text" name="name" style="width: 80%;" required>
         </div>
         <div style="display: flex; justify-content:space-between; width:50%;">
-            <p style="width: 15%;">Email:</p><input type="email" name="email" required>
+            <p style="width: 15%;">Email:</p><input style="width: 80%;" type="email" name="email" required>
         </div>
         <div style="display: flex; justify-content:space-between; width:50%;">
-            <p style="width: 15%;">Number:</p><input type="tel" name="tel" required>
+            <p style="width: 15%;">Number:</p><input style="width: 80%;" type="tel" name="tel" required>
         </div>
         <div style="display: flex; justify-content:space-between; width:50%;">
-            <p style="width: 15%;">Message:</p><textarea type="text" name="msg" style="width=85%;"></textarea>
+            <p style="width: 15%;">Message:</p><textarea type="text" name="msg" cols="100" style="resize: none; width: 80%;"></textarea>
         </div>
-        <button type="submit">Send</button>
+        <button type="submit" style="background:none;">Send</button>
     </form>
-</div>
-<div>
-    <h2>Thank you for reaching out, I'll talk to you soon! :)</h2>
 </div>
 `;
 const helpPage = `
@@ -102,6 +99,7 @@ var correctInputs = {
     "clear" : clearPage
 }
 
+display.innerHTML+=helpPage;
 input.addEventListener("keypress", function(key) {
     if(key.key === "Enter") {
         data = input.value;

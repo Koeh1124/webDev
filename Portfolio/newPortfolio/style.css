@@ -67,6 +67,15 @@ section{
     align-items: center;
 }
 
+button{
+    color: var(--textColor);
+    border-color: var(--textColor);
+}
+
+button:hover{
+    color: var(--highlightColor);
+    border-color: var(--highlightColor);
+}
 p{
     color: var(--textColor);
     font-family: 'Inconsolata', monospace;
@@ -78,6 +87,15 @@ p{
 main p {
     text-align: left;
 }
+
+h1{
+    color: var(--textColor);
+    font-family: 'Inconsolata', monospace;
+    margin:0px;
+    font-size: 2em;
+    text-align: center;
+}
+
 aside{
     width: 15%;
     display: flex;
