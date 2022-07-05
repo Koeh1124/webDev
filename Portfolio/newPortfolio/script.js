@@ -8,11 +8,46 @@ const aboutPage = `
         <h1 style:'box-sizing: border-box;'>Hello world!</h1>
         <p style:'box-sizing: border-box;'>My name is Keenan.
         I like to solve interesting problems through programming.</p>
-        <p style:'box-sizing: border-box;'>I know python, c++, html, css, javascript, and have dabbled in java and lua</p>
-        <p style:'box-sizing: border-box;'>I have some schooling in cs through the Southern Indiana Career and Tech Center and a summer program called Nexttech Catapult.</p>
+        <p style:'box-sizing: border-box;'>I know python, html, css, javascript, and have dabbled in java, lua, and c++</p>
+        <p style:'box-sizing: border-box;'>I have learned all of this through the Southern Indiana Carrer and Technical Center, the Nextech Catapult summer program, and in my free time</p>
+        <p></p>
+        <p></p>
     </div>
 </div>
-`
+`;
+const portfolio = `
+`;
+//https://stackoverflow.com/questions/25983603/how-to-submit-an-html-form-without-redirection#comment40688159_25983603
+//https://formsubmit.co/?utm_source=formsubmit.co&utm_medium=site%20link&utm_campaign=submission%20page
+const contactFourm = `
+<div>
+    <form action="https://formsubmit.co/3f346b85db501e09ef26a883e8f7d2f1" target="#" method="POST">
+    <!-- Form body here -->
+        <div style="display: flex; justify-content:space-between; width:50%;">
+            <p style="width: 15%; float:right;display:inline">Name:</p><input type="text" name="name" required>
+        </div>
+        <div style="display: flex; justify-content:space-between; width:50%;">
+            <p style="width: 15%;">Email:</p><input type="email" name="email" required>
+        </div>
+        <div style="display: flex; justify-content:space-between; width:50%;">
+            <p style="width: 15%;">Number:</p><input type="tel" name="tel" required>
+        </div>
+        <div style="display: flex; justify-content:space-between; width:50%;">
+            <p style="width: 15%;">Message:</p><textarea type="text" name="msg" style="width=85%;"></textarea>
+        </div>
+        <button type="submit">Send</button>
+    </form>
+</div>
+<div>
+    <h2>Thank you for reaching out, I'll talk to you soon! :)</h2>
+</div>
+`;
+const helpPage = `
+<p>about-learn a little about me!</p>
+<p>contact-reachout to me through a fourm</p>
+<p>portfolio-look at what I've done :)</p>
+<p>clear-claers all text</p>
+`;
 function clearPage() {
     display.innerHTML = ""
 }
@@ -60,8 +95,9 @@ var input = document.getElementsByTagName("input")[0];
 const test = () => display.innerHTML += "<p>Bruh</p>";
 const printImage = (img,width=display.width,div=display) => imageAsciiPrep(img,width,div);
 var correctInputs = {
-    "test" : test,
+    "help" : test,
     "about" : printImage,
+    "contact" : 1,
     "drip" : printImage,
     "clear" : clearPage
 }
@@ -74,6 +110,12 @@ input.addEventListener("keypress", function(key) {
             if (data === 'about'){
                 display.innerHTML += aboutPage;
                 printImage('handsomeBoy.jpg',0,document.getElementsByClassName('handsomeBoy')[document.getElementsByClassName('handsomeBoy').length-1])
+            }
+            else if(data === "help"){
+                display.innerHTML+=helpPage;
+            }
+            else if(data === "contact"){
+                display.innerHTML+=contactFourm;
             }
             else{
                 correctInputs[data]();
